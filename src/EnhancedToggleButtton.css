@@ -1,0 +1,45 @@
+/* Full page styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    transition: background-color 0.5s ease; /* Smooth background transition */
+  }
+  
+  .background.on {
+    background-color: lightgreen; /* Background color for ON state */
+  }
+  
+  .background.off {
+    background-color: lightcoral; /* Background color for OFF state */
+  }
+  
+  /* Button styling */
+  .toggle-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+  }
+  
+  .toggle-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  

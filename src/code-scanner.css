@@ -1,11 +1,12 @@
-/* App.css or your styles file */
+
 .container {
     text-align: center;
     padding: 20px;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
   }
   
   h1 {
@@ -20,8 +21,8 @@
   
   .input-field {
     padding: 12px;
-    width: 100%;
-    max-width: 350px;
+    width: 90%;
+    max-width: 400px;
     margin-right: 10px;
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -163,3 +164,12 @@
     }
   }
   
+
+
+
+
+
+
+
+
+
